@@ -1,0 +1,64 @@
+,Full Name,Position,Team,totalSalary,overall_rating,normalized_salary,value,Acquired Via
+0,Jason Kelce,C,Eagles,1120000,90,13.92883924,6.461,Draft
+1,Creed Humphrey,C,Chiefs,4160000,86,15.24102563,5.643,Draft
+2,Jon Feliciano,C,Giants,500000,72,13.12236338,5.487,Free Agent
+3,A.J. Terrell Jr,CB,Falcons,2000000,89,14.50865774,6.134,Draft
+4,Bryce Callahan,CB,Chargers,900000,82,13.71015004,5.981,Free Agent
+5,Patrick Peterson,CB,Vikings,500000,78,13.12236338,5.944,Free Agent
+6,Derrick Nnadi,DT,Chiefs,500000,78,13.12236338,5.944,Draft
+7,Matthew Ioannidis,DT,Panthers,500000,78,13.12236338,5.944,Free Agent
+8,Fletcher Cox,DT,Eagles,3000000,88,14.91412285,5.9,Draft
+9,Andy Janovich,FB,Texans,750000,78,13.52782849,5.766,Free Agent
+10,Khari Blasingame,FB,Bears,970000,72,13.78505135,5.223,Free Agent
+11,Kyle Juszczyk,FB,49ers,17500000,87,16.67771144,5.217,Free Agent
+12,Jabrill Peppers,FS,Patriots,400000,80,12.89921983,6.202,Free Agent
+13,Devin McCourty,FS,Patriots,1250000,87,14.03865411,6.197,Draft
+14,Micah Hyde,FS,Bills,6320000,91,15.65922977,5.811,Free Agent
+15,Melvin Gordon III,HB,Broncos,490000,83,13.10216067,6.335,Free Agent
+16,Jonathan Taylor,HB,Colts,4120000,95,15.23136372,6.237,Draft
+17,Rashaad Penny,HB,Seahawks,400000,78,12.89921983,6.047,Draft
+18,Justin Tucker,K,Ravens,9130000,90,16.02707625,5.615,Undrafted Free Agent
+19,Evan McPherson,K,Bengals,3490000,83,15.06541229,5.509,Draft
+20,Greg Zuerlein,K,Jets,990000,75,13.80546022,5.433,Free Agent
+21,J.J. Watt,LE,Cardinals,1000000,87,13.81551056,6.297,Free Agent
+22,Jadeveon Clowney,LE,Browns,500000,82,13.12236338,6.249,Free Agent
+23,Chase Young,LE,Commanders,2000000,86,14.50865774,5.927,Draft
+24,Rodger Saffold III,LG,Bills,1000000,80,13.81551056,5.791,Free Agent
+25,Quenton Nelson,LG,Colts,22190000,95,16.91515229,5.616,Draft
+26,Andrew Norwell,LG,Commanders,2720000,82,14.81614244,5.535,Free Agent
+27,Melvin Ingram,LOLB,Dolphins,600000,84,13.30468493,6.314,Free Agent
+28,Kyler Fackrell,LOLB,Raiders,420000,73,12.94800999,5.638,Free Agent
+29,Rashan Gary,LOLB,Packers,12890000,89,16.37196237,5.436,Draft
+30,Jedrick Wills Jr,LT,Browns,2000000,80,14.50865774,5.514,Draft
+31,Geron Christian Sr,LT,Chiefs,500000,71,13.12236338,5.411,Free Agent
+32,Trent Williams,LT,49ers,97870000,99,18.39915063,5.381,Trade
+33,Bobby Wagner,MLB,Rams,5000000,91,15.42494847,5.9,Free Agent
+34,Anthony Walker Jr,MLB,Browns,500000,77,13.12236338,5.868,Free Agent
+35,Jayon Brown,MLB,Raiders,590000,77,13.28787782,5.795,Free Agent
+36,Thomas Morstead,P,Dolphins,500000,80,13.12236338,6.096,Free Agent
+37,Jack Fox,P,Lions,900000,79,13.71015004,5.762,Free Agent
+38,Johnny Hekker,P,Panthers,2490000,82,14.72779327,5.568,Free Agent
+39,Tom Brady,QB,Buccaneers,1120000,97,13.92883924,6.964,Free Agent
+40,Joe Burrow,QB,Bengals,2000000,90,14.50865774,6.203,Draft
+41,Justin Herbert,QB,Chargers,2000000,88,14.50865774,6.065,Draft
+42,Akiem Hicks,RE,Buccaneers,500000,84,13.12236338,6.401,Free Agent
+43,Marcus Davenport,RE,Saints,500000,82,13.12236338,6.249,Draft
+44,Jarran Reed,RE,Packers,400000,73,12.89921983,5.659,Free Agent
+45,Zack Martin,RG,Cowboys,29140000,98,17.18762236,5.702,Draft
+46,Will Hernandez,RG,Cardinals,500000,72,13.12236338,5.487,Free Agent
+47,Trai Turner,RG,Commanders,1550000,77,14.25376549,5.402,Free Agent
+48,Chandler Jones,ROLB,Raiders,1500000,90,14.22097567,6.329,Free Agent
+49,Kyzir White,ROLB,Eagles,500000,79,13.12236338,6.02,Free Agent
+50,Josh Allen,ROLB,Jaguars,2000000,85,14.50865774,5.859,Draft
+51,Tristan Wirfs,RT,Buccaneers,2000000,91,14.50865774,6.272,Draft
+52,Billy Turner,RT,Broncos,500000,72,13.12236338,5.487,Free Agent
+53,Elgton Jenkins,RT,Packers,6100000,85,15.62379933,5.44,Draft
+54,Kareem Jackson,SS,Broncos,300000,81,12.61153775,6.423,Free Agent
+55,Rodney McLeod Jr,SS,Colts,300000,79,12.61153775,6.264,Free Agent
+56,Anthony Harris,SS,Eagles,400000,80,12.89921983,6.202,Free Agent
+57,Austin Hooper,TE,Titans,500000,79,13.12236338,6.02,Free Agent
+58,Noah Fant,TE,Seahawks,1000000,82,13.81551056,5.935,Trade
+59,Zach Ertz,TE,Cardinals,1500000,84,14.22097567,5.907,Trade
+60,Justin Jefferson,WR,Vikings,2000000,93,14.50865774,6.41,Trade
+61,Jarvis Landry,WR,Saints,500000,83,13.12236338,6.325,Free Agent
+62,Jamison Crowder,WR,Bills,500000,80,13.12236338,6.096,Free Agent
