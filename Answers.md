@@ -5,7 +5,7 @@ However, Madden ratings are a reflection of past performance and do not account 
 
 The working, analysis and visualizations for my chosen approach are available on my GitHub repository: <a> https://github.com/anshumaanshankar/football-research/ </a>
 
-### Question 2 - Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter.
+### Question 2 - Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter. 
 
 From a player-performance standpoint, we can evaluate a system on how well it captures the correlation of key statistics with the outcome or by calculating error metrics such as MAE and RMSE between projection and actual statistics and viewing the distributions of those errors to spot patterns. When comparing algorithms, We can run different statistical tests that compare system accuracies, to arrive at conclusions about which is better (if any). While this would work in comparing most predictive systems, I believe we would not be accounting for all the important factors needed in solving the problem at hand. 
 
