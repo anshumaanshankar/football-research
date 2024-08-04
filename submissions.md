@@ -18,16 +18,16 @@
 
 4. When a head coach faces a 4th down decision, I would evaluate the options in the following data-driven way to maximize win percentage:
 
-  1. Identify Options: We have three main choices, dependent on specific data:
+  i. Identify Options: We have three main choices, dependent on specific data:
      a. Going for it: yards-to-go, field position, conversion %age & relevant player performances.
      b. Field goal: kicker’s accuracy, distance, and weather conditions.
      c. Punting: punt coverage and the opponent’s return ability.
   
-  Pre-built Models: As real-time creation isn't feasible, models are created ahead of time. During the game, we input relevant player performance and game situation data into the pre-built model, predicting the success probabilities per option.
+  ii. Pre-built Models: As real-time creation isn't feasible, models are created ahead of time. During the game, we input relevant player performance and game situation data into the pre-built model, predicting the success probabilities per option.
   
-  3. Evaluate Factors: The model considers factors like offensive line performance, opponent's likelihood to stop the attempt by accounting for pass rush effectiveness or secondary performance etc, and their likelihood to score from that position against each of our options.
+  iii. Evaluate Factors: The model considers factors like offensive line performance, opponent's likelihood to stop the attempt by accounting for pass rush effectiveness or secondary performance etc, and their likelihood to score from that position against each of our options.
   
-  4. Decision Impact: The output provides a recommendation that optimizes win %age, considering how each decision could impact the game regardless of when the 4th down occurs.
+  iv. Decision Impact: The output provides a recommendation that optimizes win %age, considering how each decision could impact the game regardless of when the 4th down occurs.
   
   These evaluations are based on models trained and tested on both league-wide and our team’s historical data as well to ensure accurate success percentages. This approach also accounts for the value of possession and the relative scoring impact, considering factors like the opponent’s success rate from specific field positions if they gain possession.
 
