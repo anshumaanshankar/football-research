@@ -20,7 +20,9 @@
 
   i. Identify Options: We have three main choices, dependent on specific data:
      a. Going for it: yards-to-go, field position, conversion %age & relevant player performances.
+     
      b. Field goal: kicker’s accuracy, distance, and weather conditions.
+     
      c. Punting: punt coverage and the opponent’s return ability.
   
   ii. Pre-built Models: As real-time creation isn't feasible, models are created ahead of time. During the game, we input relevant player performance and game situation data into the pre-built model, predicting the success probabilities per option.
