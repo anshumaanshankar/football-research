@@ -19,6 +19,7 @@
 4. When a head coach faces a 4th down decision, I would evaluate the options in the following data-driven way to maximize win percentage:
 
   i. Identify Options: We have three main choices, dependent on specific data:
+  
      a. Going for it: yards-to-go, field position, conversion %age & relevant player performances.
      
      b. Field goal: kicker’s accuracy, distance, and weather conditions.
