@@ -19,11 +19,11 @@
 4. When a head coach faces a 4th down decision, I would evaluate the options using a data-driven approach to maximize win percentage like so:
 
     i. Evaluate the three main choices:
-    Going for it: Analyze yards-to-go, field position, and real-time player performance.
+           Going for it: Analyze yards-to-go, field position, and real-time player performance.
    
-    Field goal: Assess kicker’s likelihood to score based on distance, performance and weather conditions.
+           Field goal: Assess kicker’s likelihood to score based on distance, performance and weather conditions.
    
-    Punting: Evaluate punt coverage and the opponent’s return ability.
+           Punting: Evaluate punt coverage and the opponent’s return ability.
     
     ii. Incorporating contextual factors: Consider factors like score differential, time left, home/away status, offensive line performance, opponent’s pass rush, secondary performance, and the likelihood of the opponent scoring if the attempt fails. Use advanced metrics like Expected Points Added (EPA) and Win Probability Added (WPA), updated in real time, to quantify each option’s impact
     
