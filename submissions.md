@@ -16,23 +16,20 @@
   
     Improvements to value calculation could include accounting for team dynamics that influence statistics and using weighted average to account for importance of metrics. Comprehensive metrics like QBR or Pro Football Focus (PFF) Grades could be included in conjunction, but I chose not to use them to prevent double-counts of certain stats. Allen ranks #3 on QBR, leading some confidence to our results. To see the working, please refer to my GitHub repository linked in Q1.
 
-4. When a head coach faces a 4th down decision, I would evaluate the options in the following data-driven way to maximize win percentage:
+4. When a head coach faces a 4th down decision, I would evaluate the options using a data-driven approach to maximize win percentage like so:
 
-    i. Identify Options: We have three main choices, dependent on specific data:
-  
-       a. Going for it: yards-to-go, field position, conversion %age & relevant player performances.
-     
-       b. Field goal: kicker’s accuracy, distance, and weather conditions.
-     
-       c. Punting: punt coverage and the opponent’s return ability.
-  
-    ii. Pre-built Models: As real-time creation isn't feasible, models are created ahead of time. During the game, we input relevant player performance and game situation data into the pre-built model, predicting the success probabilities per option.
-  
-    iii. Evaluate Factors: The model considers factors like offensive line performance, opponent's likelihood to stop the attempt by accounting for pass rush effectiveness or secondary performance etc, and their likelihood to score from that position against each of our options.
-  
-    iv. Decision Impact: The output provides a recommendation that optimizes win %age, considering how each decision could impact the game regardless of when the 4th down occurs.
-  
-    These evaluations are based on models trained and tested on both league-wide and our team’s historical data as well to ensure accurate success percentages. This approach also accounts for the value of possession and the relative scoring impact, considering factors like the opponent’s success rate from specific field positions if they gain possession.
+    i. Evaluate the three main choices:
+    Going for it: Analyze yards-to-go, field position, and real-time player performance.
+    Field goal: Assess kicker’s likelihood to score based on distance, performance and weather conditions.
+    Punting: Evaluate punt coverage and the opponent’s return ability.
+    
+    ii. Incorporating contextual factors: Consider factors like score differential, time left, home/away status, offensive line performance, opponent’s pass rush, secondary performance, and the likelihood of the opponent scoring if the attempt fails. Use advanced metrics like Expected Points Added (EPA) and Win Probability Added (WPA), updated in real time, to quantify each option’s impact
+    
+    iii. Use real-time models: Input live data into pre-built models trained on historical data. These models would be updated after each play to ensure they reflect the current game situation accurately.
+    
+    iv. Apply visualization tools: Use visual aids like heat maps and decision trees for quick data interpretation. Utilize real-time dashboards to help coaches and analysts make informed decisions collaboratively.
+    
+    For example, on 4th and 2 at the opponent’s 40-yard line with 5 minutes left, the model can provide conversion likelihood, field goal success rate, and punt outcomes. This comprehensive approach ensures we make the most informed choice to maximize win probability.
 
 5. Football matters to me because, as an international student in the US for my graduate studies, it provided a sense of community and companionship. Coming from a cricket-loving city in India, I grew up an ardent sports fan, finding joy in discussing tactics and numbers. Right from the first NCAA game I watched, I quickly found a similar camaraderie in football, and this passion helped me build a community in Indiana. With each game, my interest deepened, and I grew to appreciate the NFL’s strategic complexity and depth.
 
