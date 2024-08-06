@@ -1,13 +1,12 @@
 ### What avenue of player acquisition do you think currently provides teams with the most value per dollar spend and why?
 
-1. Free agents provide the most value per dollar spend. I believe that this makes sense because signing free agents allows teams to acquire proven NFL talents without sacrificing draft picks or future assets, often at a lower cost than re-signing their own players. Additionally, it provides flexibility in addressing specific team needs and offers immediate roster improvements compared to grooming a rookie.
+1. Free agents provide the most value per dollar spend. To me, that makes sense because signing free agents allows teams to acquire proven NFL talents without sacrificing draft picks & often cost less than re-signing their own players. Additionally, it provides flexibility in addressing specific team needs and offers immediate roster improvements compared to grooming a rookie.
 
-For the analysis, I used a players' overall rating in Madden 23 divided by the logarithm of their salary to generate a value score. Observing the top 3 players per position, I discovered that free agents formed 60% of players in this distribution, followed by drafted players at 30%.
+For the analysis, I used a player's overall rating in Madden 23 divided by the logarithm of their salary to generate a value score. Observing the top 3 players per position, I discovered that free agents formed 60% of players in this distribution, followed by drafted players at 30%.
 
-While the answer makes sense,We could build on using single Madden ratings for more accurate player value determination. Considering changes in rating and salary over time would tell us if a player's value is increasing, plateauing, or decreasing. For players with little or no NFL game time, college performance against rookie contract rates could better describe value. Other methods for comparing players could involve using overall metrics like Pro Football Focus (PFF) ratings or formulating our own Wins Above Replacement (WAR) metric against salary, similar to baseball. By using these methods or a combination of them, we can overcome relying on a single Madden ranking for value determination.
+While using single Madden ratings provides a straightforward approach to evaluating player value, we can refine this analysis for greater accuracy and insight. Considering changes in rating and salary over time would tell us if a player's value is increasing, plateauing, or decreasing. For players with little/no NFL game time, college performance against rookie contract rates could better describe value. Other methods for comparing players could involve using metrics like Pro Football Focus (PFF) ratings or formulating our own Wins Above Replacement (WAR) metric against salary, similar to baseball. By using these methods or a combination of them, we can overcome relying on a single Madden ranking for value determination.
 
 My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
-
 
 ### Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter.
 
