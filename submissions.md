@@ -8,6 +8,15 @@ While using single Madden ratings provides a straightforward approach to evaluat
 
 My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
 
+Variation1:
+Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players. They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
+
+To support this, I evaluated players using a single, comprehensive metric to compare players across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided these ratings by the logarithm of each player's salary to account for the wide range of salaries in the league and arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
+
+While this approach is straightforward, I believe higher accuracy can be achieved. To refine the model, we can use the difference in Madden ratings over the change in salary to visualize a player's value trajectory and include NCAA statistics for players with minimal NFL experience. Additionally, access to metrics like PFF WAR and PFF grades could provide a more comprehensive player rating, enhancing value estimation.
+
+My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
+
 ### Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter.
 
 2. We can evaluate systems by how well they capture correlation of key statistics with outcomes or by finding error metrics such as MAE/RMSE between projections and actual numbers. When comparing algorithms, we can compare them on those metrics or run multiple statistical tests to determine which system is superior. In the case of comparable performance among systems, I lean towards models that also capture less mainstream statistics in addition to stats-only models, Here's why:
