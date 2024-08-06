@@ -17,6 +17,14 @@ While this approach is straightforward, I believe higher accuracy in value estim
 
 My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
 
+
+#### Variation2:
+I think free agents provide the best value per dollar spend. I believe this is so because free agents are proven NFL talents who provide immediate roster improvements and flexibility compared to new draft picks and are usually cheaper alternatives to re-signing their own players. 
+
+To evaluate this question analytically, I considered a value rating per player, calculated by dividing a player's overall Madden 23 rating by the logarithm of their salary. Madden ratings were chosen owing to the lack of open source metrics and transparent formulae that can be used to evaluate players across positions on a single metric and the logarithm of salary is applied to account for a wide salary range in the league. Considering the top 3 valued players by position, 60% were seen to be free agents, aligning with my initial belief. 
+
+While this method is straightforward, I believe the model can be extended to increase its accuracy. Considering the change in Madden ratings over time can be compared to salary changes to gain insight about a player's value trajectory. Additionally, access to metrics such as PFF WAR and PFF grades can aid in comparing players across positions on a single comprehensive metric. 
+
 ### Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter.
 
 2. We can evaluate systems by how well they capture correlation of key statistics with outcomes or by finding error metrics such as MAE/RMSE between projections and actual numbers. When comparing algorithms, we can compare them on those metrics or run multiple statistical tests to determine which system is superior. In the case of comparable performance among systems, I lean towards models that also capture less mainstream statistics in addition to stats-only models, Here's why:
