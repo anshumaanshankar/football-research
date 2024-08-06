@@ -8,7 +8,7 @@ While using single Madden ratings provides a straightforward approach to evaluat
 
 My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
 
-Variation1:
+#### Variation1:
 Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players. They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
 
 To support this, I evaluated players using a single, comprehensive metric to compare players across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided these ratings by the logarithm of each player's salary to account for the wide range of salaries in the league and arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
