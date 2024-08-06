@@ -1,19 +1,8 @@
 ### What avenue of player acquisition do you think currently provides teams with the most value per dollar spend and why?
 
-#### Variation1:
 Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players, They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
 
-To support this, I evaluated players using a single, comprehensive metric to compare players across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided these ratings by the logarithm of each player's salary to account for the wide range of salaries in the league and arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
-
-While this approach is straightforward, I believe higher accuracy in value estimation can be achieved. To extend the model, we can use the difference in Madden ratings over the change in salary to visualize a player's value trajectory and include NCAA metrics for players with minimal NFL experience. Additionally, access to metrics like PFF WAR and PFF grades would provide a more comprehensive player rating, enhancing value estimation.
-
-My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
-
-
-#### Variation2:
-Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players, They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
-
-To support this, I wished to evaluate players using a single, comprehensive metric to compare them across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided a player's ratings by the logarithm of their salary, to account for the wide range of salaries in the league, to arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
+To support this, I wished to evaluate players using a single, comprehensive metric to compare them across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided a player's rating by the logarithm of their salary, to account for the wide range of salaries in the league, to arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
 
 While this approach is straightforward, I believe higher accuracy in value estimation can be achieved. To extend the model, we can visualize the change in Madden ratings over time can be compared to salary changes to gain insight about a player's value trajectory. Additionally, access to metrics such as PFF WAR and PFF grades will aid in comparing players across positions on a single metric.
 
