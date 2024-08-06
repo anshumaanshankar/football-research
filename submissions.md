@@ -1,13 +1,5 @@
 ### What avenue of player acquisition do you think currently provides teams with the most value per dollar spend and why?
 
-1. Free agents provide the most value per dollar spend. To me, that makes sense because signing free agents allows teams to acquire proven NFL talents without sacrificing draft picks & often cost less than re-signing their own players. Additionally, it provides flexibility in addressing specific team needs and offers immediate roster improvements compared to grooming a rookie.
-
-For the analysis, I used a player's overall rating in Madden 23 divided by the logarithm of their salary to generate a value score. Observing the top 3 players per position, I discovered that free agents formed 60% of players in this distribution, followed by drafted players at 30%.
-
-While using single Madden ratings provides a straightforward approach to evaluating player value, we can refine this analysis for greater accuracy and insight. Considering changes in rating and salary over time would tell us if a player's value is increasing, plateauing, or decreasing. For players with little/no NFL game time, college performance against rookie contract rates could better describe value. Other methods for comparing players could involve using metrics like Pro Football Focus (PFF) ratings or formulating our own Wins Above Replacement (WAR) metric against salary, similar to baseball. By using these methods or a combination of them, we can overcome relying on a single Madden ranking for value determination.
-
-My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
-
 #### Variation1:
 Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players, They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
 
