@@ -19,11 +19,13 @@ My working is available on my GitHub repository: https://github.com/anshumaansha
 
 
 #### Variation2:
-I think free agents provide the best value per dollar spend. I believe this is so because free agents are proven NFL talents who provide immediate roster improvements and flexibility compared to new draft picks and are usually cheaper alternatives to re-signing their own players. 
+Free agents provide the best value per dollar spent, in my opinion. This is because they are proven NFL talents who can be acquired for less money than re-signing your own players, They do not require sacrificing draft picks and offer immediate roster improvements and flexibility compared to rookies.
 
-To evaluate this question analytically, I considered a value rating per player, calculated by dividing a player's overall Madden 23 rating by the logarithm of their salary. Madden ratings were chosen owing to the lack of open source metrics and transparent formulae that can be used to evaluate players across positions on a single metric and the logarithm of salary is applied to account for a wide salary range in the league. Considering the top 3 valued players by position, 60% were seen to be free agents, aligning with my initial belief. 
+To support this, I wished to evaluate players using a single, comprehensive metric to compare them across positions. Given the lack of open-source metrics and transparent formulae that rate players in this manner, I chose to use overall rankings from Madden 23. I divided a player's ratings by the logarithm of their salary, to account for the wide range of salaries in the league, to arrive at a value score. By considering the top three players per position, I found that 60% of these players were free agents.
 
-While this method is straightforward, I believe the model can be extended to increase its accuracy. Considering the change in Madden ratings over time can be compared to salary changes to gain insight about a player's value trajectory. Additionally, access to metrics such as PFF WAR and PFF grades can aid in comparing players across positions on a single comprehensive metric. 
+While this approach is straightforward, I believe higher accuracy in value estimation can be achieved. To extend the model, we can visualize the change in Madden ratings over time can be compared to salary changes to gain insight about a player's value trajectory. Additionally, access to metrics such as PFF WAR and PFF grades will aid in comparing players across positions on a single metric.
+
+My working is available on my GitHub repository: https://github.com/anshumaanshankar/football-research/
 
 ### Imagine that you are tasked with evaluating the accuracy of three different college-to-pro player projection systems for wide receivers. You have both the projections and actual pro statistics for the past 10 seasons. Discuss how you would approach the problem and list any potential issues you may encounter.
 
